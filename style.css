@@ -76,14 +76,14 @@ nav {
   display: inline-flex;
   align-items: center;
   margin-right: auto;
-  color: var(--text);
+  color: var(--brand);
   text-decoration: none;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  line-height: 1;
 }
-.brand img {
-  height: 28px;
-  width: auto;
-  display: block;
-}
+.brand:hover { opacity: 1; color: var(--brand-light); }
 
 nav a:not(.brand) {
   color: var(--text-secondary);
