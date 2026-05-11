@@ -9,6 +9,7 @@ Language: en
 ## Key pages
 
 - Homepage: https://getsuvo.com/
+- About and contact: https://getsuvo.com/about.html
 - Source library: https://getsuvo.com/sources/
 - Privacy policy: https://getsuvo.com/privacy.html
 - Account deletion: https://getsuvo.com/delete-account.html

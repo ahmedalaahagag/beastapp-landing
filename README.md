@@ -19,6 +19,7 @@ This repository is intentionally simple:
 ```text
 index.html                    Home page
 privacy.html                  Privacy policy
+about.html                    About, contact, and source-review policy
 delete-account.html           Account deletion instructions
 affiliates.html               Affiliate disclosure
 404.html                      Custom not-found page
@@ -62,6 +63,7 @@ After SEO-related changes, check:
 - `https://getsuvo.com/robots.txt`
 - `https://getsuvo.com/sitemap.xml`
 - `https://getsuvo.com/llms.txt`
+- `https://getsuvo.com/about.html`
 - `https://getsuvo.com/sources/`
 - `https://getsuvo.com/picks/`
 
@@ -76,6 +78,7 @@ The site includes:
 - `robots.txt` with sitemap discovery.
 - `sitemap.xml` for crawlers.
 - `llms.txt` for AI/search-agent context.
+- About/contact page for support and trust signals.
 
 See [SEO-TODO.md](./SEO-TODO.md) for the completed checklist, missing data, and remaining validation steps.
 
@@ -113,4 +116,4 @@ When adding a pick page:
 - Avoid adding build tooling unless the site genuinely needs it.
 - Compress images before committing.
 - Keep privacy, affiliate, and account deletion pages aligned with app-store requirements.
-- Update `sitemap.xml` and `llms.txt` whenever important public pages change.
+- Update `sitemap.xml`, `llms.txt`, and `SEO-TODO.md` whenever important public pages change.

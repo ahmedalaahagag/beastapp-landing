@@ -23,9 +23,15 @@ Last updated: 2026-05-11
 - [x] Verified `sitemap.xml` is valid XML.
 - [x] Verified local HTTP `200` responses for `/`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`, `/sources/`, `/picks/`, and `/picks/omega-3-epa-dha.html`.
 - [x] Browser-smoke-tested home, sources, picks, and omega pages with no console errors.
+- [x] Enabled GitHub Pages for `a-j-n/suvo-landing` from the `main` branch.
+- [x] Confirmed the new build is live at `https://a-j-n.github.io/suvo-landing/`.
+- [x] Added `.gitignore` for `.DS_Store`.
+- [x] Added an About/Contact page with support email, source-review policy, and medical-advice limits.
+- [x] Updated homepage CTAs to a clearer email-based waitlist fallback until store links exist.
 
 ## Missing Data
 
+- [ ] GitHub custom-domain ownership for `getsuvo.com`. GitHub currently reports the domain is already claimed by another Pages site.
 - [ ] Google Search Console property access and sitemap submission status.
 - [ ] PageSpeed Insights/Core Web Vitals results after deployment. The API returned quota `429` during local audit.
 - [ ] Real App Store and Google Play URLs. Current calls to action still use email links.
@@ -40,7 +46,9 @@ Last updated: 2026-05-11
 ## Remaining To Do
 
 - [ ] Deploy the static site.
-- [ ] Confirm live `https://getsuvo.com/robots.txt`, `sitemap.xml`, and `llms.txt` return `200`.
+- [x] Confirm live GitHub Pages fallback URLs return `200` for `/`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`, `/sources/`, and `/picks/`.
+- [ ] Release or verify the `getsuvo.com` Pages custom domain, then attach it to `a-j-n/suvo-landing`.
+- [ ] Confirm live `https://getsuvo.com/robots.txt`, `sitemap.xml`, and `llms.txt` return `200` after the domain is attached.
 - [ ] Submit `https://getsuvo.com/sitemap.xml` in Google Search Console.
 - [ ] Run PageSpeed Insights after deployment and record mobile/desktop results.
 - [ ] Validate homepage and article schema in Google's Rich Results Test.
