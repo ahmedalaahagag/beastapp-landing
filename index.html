@@ -4,18 +4,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'" />
-  <title>Suvo — Supplement tracking, interactions & timing</title>
-  <meta name="description" content="Suvo is a mobile app for people who take supplements seriously. Scan your stack, spot interactions, and time supplements around meals and sleep." />
+  <title>Supplement Tracker for Interactions &amp; Timing | Suvo</title>
+  <meta name="description" content="Suvo is a supplement tracker for scanning your stack, spotting interactions, and timing doses around meals and sleep. Build a clearer supplement schedule." />
+  <link rel="canonical" href="https://getsuvo.com/" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
-  <meta property="og:title" content="Suvo — Supplement tracking, interactions & timing" />
+  <meta property="og:title" content="Supplement Tracker for Interactions &amp; Timing | Suvo" />
   <meta property="og:description" content="Scan your stack, spot interactions, and time supplements around meals and sleep." />
   <meta property="og:image" content="https://getsuvo.com/assets/og-image.png" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://getsuvo.com/" />
+  <meta property="og:site_name" content="Suvo" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Supplement Tracker for Interactions &amp; Timing | Suvo" />
+  <meta name="twitter:description" content="Scan your stack, spot interactions, and time supplements around meals and sleep." />
+  <meta name="twitter:image" content="https://getsuvo.com/assets/og-image.png" />
+  <meta name="theme-color" content="#0A0A0F" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://getsuvo.com/#organization",
+        "name": "Suvo",
+        "url": "https://getsuvo.com/",
+        "logo": "https://getsuvo.com/assets/brand-mark.png",
+        "email": "hello@getsuvo.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@getsuvo.com",
+          "contactType": "customer support",
+          "availableLanguage": "en"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://getsuvo.com/#website",
+        "name": "Suvo",
+        "url": "https://getsuvo.com/",
+        "publisher": { "@id": "https://getsuvo.com/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://getsuvo.com/#app",
+        "name": "Suvo",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "iOS, Android",
+        "description": "Suvo helps people catalog supplements, review interaction and timing conflicts, and build a clearer supplement schedule.",
+        "url": "https://getsuvo.com/",
+        "image": "https://getsuvo.com/assets/og-image.png",
+        "publisher": { "@id": "https://getsuvo.com/#organization" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="bg-blobs" aria-hidden="true">
@@ -32,11 +79,13 @@
       </a>
       <div class="nav-links">
         <a href="#features">Features</a>
+        <a href="sources/">Sources</a>
+        <a href="about.html">About</a>
         <a href="privacy.html">Privacy</a>
         <a href="affiliates.html">Disclosure</a>
       </div>
-      <a class="cta cta-sm" href="mailto:hello@getsuvo.com" aria-label="Get the Suvo app">
-        Get the app
+      <a class="cta cta-sm" href="mailto:hello@getsuvo.com?subject=Suvo%20waitlist" aria-label="Join the Suvo waitlist">
+        Join waitlist
         <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
     </nav>
@@ -53,8 +102,8 @@
           From scan to schedule — no guesswork. No conflicts. Just clarity.
         </p>
         <div class="hero-ctas">
-          <a class="cta" href="mailto:hello@getsuvo.com">
-            Get Suvo
+          <a class="cta" href="mailto:hello@getsuvo.com?subject=Suvo%20waitlist">
+            Join waitlist
             <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
           <a class="cta-ghost" href="#features">See how it works</a>
@@ -243,14 +292,46 @@
     </div>
   </section>
 
+  <section id="sources" class="features">
+    <div class="section-heading">
+      <span class="section-eyebrow">Evidence</span>
+      <h2>Rules with receipts</h2>
+      <p class="section-sub">Suvo's supplement guidance is built around named source tiers, not generic wellness copy.</p>
+    </div>
+    <div class="grid">
+      <article class="feature-card feature-card-orange">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-1.5Z"/><path d="M8 7h6"/><path d="M8 11h8"/><path d="M8 15h5"/></svg>
+        </div>
+        <h3>Source hierarchy</h3>
+        <p>Regulatory bodies, government institutes, systematic reviews, and curated databases are separated into tiers so stronger evidence wins conflicts.</p>
+      </article>
+      <article class="feature-card feature-card-purple">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        </div>
+        <h3>Visible limits</h3>
+        <p>Each rule type has a job: upper limits, interaction warnings, timing notes, synonym matching, or plain-language fallback for users.</p>
+      </article>
+      <article class="feature-card feature-card-teal">
+        <div class="feature-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+        </div>
+        <h3>Updated carefully</h3>
+        <p>Health-adjacent rules are reviewed against named references before release. Suvo is educational and not a substitute for clinical care.</p>
+      </article>
+    </div>
+    <p class="section-link"><a href="sources/">Browse Suvo's source library</a></p>
+  </section>
+
   <section id="support" class="cta-section">
     <div class="cta-box">
       <h2>Stop guessing your stack.</h2>
-      <p class="cta-sub">Download Suvo and turn your shelf of bottles into a smart, conflict-free schedule.</p>
+      <p class="cta-sub">Join the waitlist and be first to turn your shelf of bottles into a smart, conflict-free schedule.</p>
       <div class="cta-buttons">
-        <a class="cta-light" href="mailto:hello@getsuvo.com">
-          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/></svg>
-          Get Suvo
+        <a class="cta-light" href="mailto:hello@getsuvo.com?subject=Suvo%20waitlist">
+          <img class="button-logo" src="assets/brand-mark.png" alt="" width="20" height="20" />
+          Join waitlist
         </a>
         <a class="cta-glass-on-brand" href="mailto:hello@getsuvo.com">
           <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -270,7 +351,7 @@
       <a href="mailto:hello@getsuvo.com" class="footer-email">hello@getsuvo.com</a>
     </div>
     <div class="footer-legal">
-      <p>&copy; 2026 Suvo. <a href="privacy.html">Privacy</a> · <a href="affiliates.html">Affiliate disclosure</a></p>
+      <p>&copy; 2026 Suvo. <a href="about.html">About</a> · <a href="privacy.html">Privacy</a> · <a href="delete-account.html">Delete account</a> · <a href="affiliates.html">Affiliate disclosure</a> · <a href="sources/">Sources</a> · <a href="picks/">Editorial picks</a></p>
       <p class="fine">
         As an Amazon Associate we earn from qualifying purchases.
         Suvo does not provide medical advice. Consult a qualified healthcare professional
