@@ -284,18 +284,18 @@ h3 {
 .tag.info   { color: var(--info); }
 .tag.warn   { color: var(--warning); }
 
-/* ---------- About & beta ---------- */
+/* ---------- About & support ---------- */
 
 .about p,
-.beta p {
+.support p {
   color: var(--text-secondary);
   font-size: 16px;
   max-width: 720px;
 }
-.beta a { color: var(--brand-light); }
-.beta a:hover { color: var(--brand); }
+.support a { color: var(--brand-light); }
+.support a:hover { color: var(--brand); }
 
-.beta .card {
+.support .card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
